@@ -65,3 +65,4 @@ C:\Users\kerim\source\repos\application\learningapp\obj\Release\net8.0\refint\le
 C:\Users\kerim\source\repos\application\learningapp\obj\Release\net8.0\learningapp.pdb
 C:\Users\kerim\source\repos\application\learningapp\obj\Release\net8.0\learningapp.genruntimeconfig.cache
 C:\Users\kerim\source\repos\application\learningapp\obj\Release\net8.0\ref\learningapp.dll
+C:\Users\kerim\source\repos\application\learningapp\obj\Release\net8.0\learningapp.sourcelink.json

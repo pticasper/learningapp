@@ -28,9 +28,9 @@ public class IndexModel : PageModel
          {
              while (sqlDatareader.Read())
                 {
-                    Courses.Add(new Course() {CourseID=Int32.Parse(sqlDatareader["CourseID"].ToString()),
+                    Courses.Add(new Course() {CourseID=Int32.Parse(sqlDatareader["CourseID"].ToString() ?? "0"),
                     CourseName=sqlDatareader["CourseName"].ToString(),
-                    Rating=Decimal.Parse(sqlDatareader["Rating"].ToString())});
+                    Rating=Decimal.Parse(sqlDatareader["Rating"].ToString() ?? "0.0m" )});
                 }
          }
     }
